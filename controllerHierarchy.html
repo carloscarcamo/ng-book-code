@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>controller hierarchy | ng-book</title>
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	</head>
+	<body>
+		<div ng-app="app">
+			<div ng-controller="ParentController">
+				<div ng-controller="ChildController">
+					<a href="" ng-click="sayHello()">Say Hello</a>
+				</div>
+				{{person}}
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/controllerHierarchy.js"></script>
+	</body>
+</html>
